@@ -31,16 +31,6 @@
 					<port>8080</port>
 				</configuration>
 				<dependencies>
-					<dependency>
-						<groupId>com.sun.jersey</groupId>
-						<artifactId>jersey-servlet</artifactId>
-						<version>${project.version}</version>
-					</dependency>
-					<dependency>
-						<groupId>javax.servlet</groupId>
-						<artifactId>javax.servlet-api</artifactId>
-						<version>3.0.1</version>
-					</dependency>
 				</dependencies>
 			</plugin>
 		</plugins>
@@ -93,6 +83,23 @@
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>2.29.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
 		</dependency>
 
 	</dependencies>
